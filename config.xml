@@ -13,14 +13,13 @@
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<gap:plugin name="org.apache.cordova.media" />
 
 	<preference name="orientation" value="default" />
-	<preference name="fullscreen" value="true" />
-	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
-	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
+	<preference name="fullscreen" value="false" />
 
-	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="14" />
+	<preference name="deployment-target" value="7.0" />
+	<preference name="android-minSdkVersion" value="16" />
 	<preference name="target-device" value="universal" />
 
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
